@@ -18,7 +18,7 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(900,400);
+  createCanvas(300,600);
   background(51);
   textFont(font);
   
@@ -26,9 +26,9 @@ function setup() {
 
   
   
-  pointsH = font.textToPoints("H",250,250,300);
-  pointsS = font.textToPoints("S",250,300,400);
-  pointsO = font.textToPoints("O",250,250,300);
+  pointsH = font.textToPoints("H",100,250,300);
+  pointsS = font.textToPoints("S",100,300,400);
+  pointsO = font.textToPoints("O",100,250,300);
   
   pointsS.length = pointsH.length;
   pointsO.length = pointsH.length;
